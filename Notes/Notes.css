@@ -1,0 +1,85 @@
+.notes-app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title-desc-container{
+    text-align: center;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+   
+}
+.title-desc{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px;
+}
+input{
+    margin: 10px;
+    height: 22px;
+    outline: none;
+}
+textarea{
+    margin: 10px;
+    outline: none;
+}
+button{
+    width: 80px;
+    align-self: center;
+    background-color: rgb(111, 111, 245);
+    border:none;
+    color: aliceblue;
+    height:30px;
+    border-radius: 8px;
+}
+/* .res-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: nowrap;
+}
+.result{
+    background-color: aqua;
+    width: 200px;
+    margin: 10px;
+}
+.res-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+} */
+.result{
+    background-color: rgb(230, 230, 230);
+    width: 300px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: tflex-star;
+    height: 200px;
+    padding-left: 0px;
+    overflow-x:hidden;
+}
+.res-container{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+}
+.res-cont{
+    margin: 10px;
+    background-color: rgb(230, 230, 230);
+}
+.delete-btn{
+    margin: 8px;
+}
+.title-date{
+    display: flex;
+    justify-content: space-around;
+}
